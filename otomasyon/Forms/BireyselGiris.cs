@@ -21,7 +21,7 @@ namespace otomasyon
         {
             InitializeComponent();
             
-         }
+         }                                                                            
         //public static SqlConnection connection = new SqlConnection("Data Source:LAPTOP-J3FG52P2; Initial Catalog=VeriTabani;Integrat*ed Security = TRUE");
         //SqlCommand command = new SqlCommand("Select * from banka");
         

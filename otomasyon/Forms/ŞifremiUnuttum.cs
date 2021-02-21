@@ -42,7 +42,7 @@ namespace otomasyon
                     MailMessage mail = new MailMessage();
                     String tarih = DateTime.Now.ToLongDateString();
                     String mailadresi = ("harmonybankdestek@gmail.com");
-                    String sifre = ("05078265165Rk.");
+                    String sifre = ("GİRECEĞİNİZŞİFRE.");
                     String smtpsrvr = "smtp.gmail.com";
                     String kime = (oku["eposta"].ToString());
                     String konu = ("Şifre Hatırlatma Maili(HarmonyBank)");
@@ -94,6 +94,11 @@ namespace otomasyon
             move = true;
             mouse_x = e.X;
             mouse_y = e.Y;
+        }
+
+        private void ŞifremiUnuttum_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

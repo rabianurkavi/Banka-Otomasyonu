@@ -186,6 +186,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ŞifremiUnuttum";
             this.Text = "ŞifremiUnuttum";
+            this.Load += new System.EventHandler(this.ŞifremiUnuttum_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ŞifremiUnuttum_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ŞifremiUnuttum_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ŞifremiUnuttum_MouseUp);
